@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainBox{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    /* top : 50px, */
+}
+
+.button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 18px;
+      background: linear-gradient(90deg, #ff416c, #ff4b2b);
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(255, 75, 43, 0.4);
+      transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(255, 75, 43, 0.6);
+}
